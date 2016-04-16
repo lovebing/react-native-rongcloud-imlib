@@ -1,6 +1,6 @@
 {
   "name": "react-native-rongcloud-imlib",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "RongCloud IMLib For React Native",
   "main": "index.js",
   "dependencies": {
