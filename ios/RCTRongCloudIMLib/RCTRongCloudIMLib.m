@@ -11,7 +11,7 @@
 @implementation RCTRongCloudIMLib
 @synthesize bridge = _bridge;
 
-RCT_EXPORT_MODULE(RongcloudModule)
+RCT_EXPORT_MODULE(RongCloudIMLibModule)
 
 RCT_EXPORT_METHOD(initWithAppKey:(NSString *) appkey) {
     NSLog(@"initWithAppKey %@", appkey);

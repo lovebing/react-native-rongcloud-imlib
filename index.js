@@ -3,7 +3,7 @@ import {
     DeviceEventEmitter
 } from 'react-native';
 
-const RongcloudModule = NativeModules.RongcloudModule;
+const RongCloudIMLib = NativeModules.RongCloudIMLibModule;
 
 var _onRongCloudMessageReceived = function(resp) {
 
@@ -20,13 +20,16 @@ const ConversationType = {
 
 export default {
     ConversationType: ConversationType,
+    onReceived (callback) {
+        _onRongCloudMessageReceived = callback;
+    },
     initWithAppKey (appKey) {
-        return RongcloudModule.initWithAppKey(appKey);
+        return RongCloudIMLib.initWithAppKey(appKey);
     },
     connectWithToken (token) {
-        return RongcloudModule.connectWithToken(token);
+        return RongCloudIMLib.connectWithToken(token);
     },
     sendTextMessage (conversationType, targetId, content) {
-        return RongcloudModule.sendTextMessage(conversationType, targetId, content, content);
+        return RongCloudIMLib.sendTextMessage(conversationType, targetId, content, content);
     }
 };
