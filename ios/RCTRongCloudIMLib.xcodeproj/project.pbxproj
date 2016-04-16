@@ -9,6 +9,22 @@
 /* Begin PBXBuildFile section */
 		EF631A971CC22A4600AC9715 /* RCTRongCloudIMLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EF631A961CC22A4600AC9715 /* RCTRongCloudIMLib.h */; };
 		EF631A991CC22A4600AC9715 /* RCTRongCloudIMLib.m in Sources */ = {isa = PBXBuildFile; fileRef = EF631A981CC22A4600AC9715 /* RCTRongCloudIMLib.m */; };
+		EF631B0F1CC28B2500AC9715 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B0E1CC28B2500AC9715 /* AssetsLibrary.framework */; };
+		EF631B111CC28B2F00AC9715 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B101CC28B2F00AC9715 /* AudioToolbox.framework */; };
+		EF631B131CC28B3800AC9715 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B121CC28B3800AC9715 /* AVFoundation.framework */; };
+		EF631B151CC28B3F00AC9715 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B141CC28B3F00AC9715 /* CFNetwork.framework */; };
+		EF631B171CC28B4600AC9715 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B161CC28B4600AC9715 /* CoreAudio.framework */; };
+		EF631B191CC28B4D00AC9715 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B181CC28B4D00AC9715 /* CoreGraphics.framework */; };
+		EF631B1B1CC28B5600AC9715 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B1A1CC28B5600AC9715 /* CoreLocation.framework */; };
+		EF631B1D1CC28B5D00AC9715 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B1C1CC28B5D00AC9715 /* CoreMedia.framework */; };
+		EF631B1F1CC28B6400AC9715 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B1E1CC28B6400AC9715 /* CoreTelephony.framework */; };
+		EF631B211CC28B6B00AC9715 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B201CC28B6B00AC9715 /* CoreVideo.framework */; };
+		EF631B231CC28B7200AC9715 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B221CC28B7200AC9715 /* ImageIO.framework */; };
+		EF631B251CC28B7B00AC9715 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B241CC28B7B00AC9715 /* MapKit.framework */; };
+		EF631B271CC28B8300AC9715 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B261CC28B8300AC9715 /* OpenGLES.framework */; };
+		EF631B291CC28B8A00AC9715 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B281CC28B8A00AC9715 /* QuartzCore.framework */; };
+		EF631B2B1CC28B9100AC9715 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B2A1CC28B9100AC9715 /* SystemConfiguration.framework */; };
+		EF631B2D1CC28B9800AC9715 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF631B2C1CC28B9800AC9715 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +44,22 @@
 		EF631A931CC22A4600AC9715 /* libRCTRongCloudIMLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTRongCloudIMLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF631A961CC22A4600AC9715 /* RCTRongCloudIMLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTRongCloudIMLib.h; sourceTree = "<group>"; };
 		EF631A981CC22A4600AC9715 /* RCTRongCloudIMLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTRongCloudIMLib.m; sourceTree = "<group>"; };
+		EF631B0E1CC28B2500AC9715 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		EF631B101CC28B2F00AC9715 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EF631B121CC28B3800AC9715 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EF631B141CC28B3F00AC9715 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EF631B161CC28B4600AC9715 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		EF631B181CC28B4D00AC9715 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF631B1A1CC28B5600AC9715 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EF631B1C1CC28B5D00AC9715 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EF631B1E1CC28B6400AC9715 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		EF631B201CC28B6B00AC9715 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		EF631B221CC28B7200AC9715 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		EF631B241CC28B7B00AC9715 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EF631B261CC28B8300AC9715 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EF631B281CC28B8A00AC9715 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EF631B2A1CC28B9100AC9715 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EF631B2C1CC28B9800AC9715 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +67,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF631B2D1CC28B9800AC9715 /* UIKit.framework in Frameworks */,
+				EF631B2B1CC28B9100AC9715 /* SystemConfiguration.framework in Frameworks */,
+				EF631B291CC28B8A00AC9715 /* QuartzCore.framework in Frameworks */,
+				EF631B271CC28B8300AC9715 /* OpenGLES.framework in Frameworks */,
+				EF631B251CC28B7B00AC9715 /* MapKit.framework in Frameworks */,
+				EF631B231CC28B7200AC9715 /* ImageIO.framework in Frameworks */,
+				EF631B211CC28B6B00AC9715 /* CoreVideo.framework in Frameworks */,
+				EF631B1F1CC28B6400AC9715 /* CoreTelephony.framework in Frameworks */,
+				EF631B1D1CC28B5D00AC9715 /* CoreMedia.framework in Frameworks */,
+				EF631B1B1CC28B5600AC9715 /* CoreLocation.framework in Frameworks */,
+				EF631B191CC28B4D00AC9715 /* CoreGraphics.framework in Frameworks */,
+				EF631B171CC28B4600AC9715 /* CoreAudio.framework in Frameworks */,
+				EF631B151CC28B3F00AC9715 /* CFNetwork.framework in Frameworks */,
+				EF631B131CC28B3800AC9715 /* AVFoundation.framework in Frameworks */,
+				EF631B111CC28B2F00AC9715 /* AudioToolbox.framework in Frameworks */,
+				EF631B0F1CC28B2500AC9715 /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +92,22 @@
 		EF631A8A1CC22A4500AC9715 = {
 			isa = PBXGroup;
 			children = (
+				EF631B2C1CC28B9800AC9715 /* UIKit.framework */,
+				EF631B2A1CC28B9100AC9715 /* SystemConfiguration.framework */,
+				EF631B281CC28B8A00AC9715 /* QuartzCore.framework */,
+				EF631B261CC28B8300AC9715 /* OpenGLES.framework */,
+				EF631B241CC28B7B00AC9715 /* MapKit.framework */,
+				EF631B221CC28B7200AC9715 /* ImageIO.framework */,
+				EF631B201CC28B6B00AC9715 /* CoreVideo.framework */,
+				EF631B1E1CC28B6400AC9715 /* CoreTelephony.framework */,
+				EF631B1C1CC28B5D00AC9715 /* CoreMedia.framework */,
+				EF631B1A1CC28B5600AC9715 /* CoreLocation.framework */,
+				EF631B181CC28B4D00AC9715 /* CoreGraphics.framework */,
+				EF631B161CC28B4600AC9715 /* CoreAudio.framework */,
+				EF631B141CC28B3F00AC9715 /* CFNetwork.framework */,
+				EF631B121CC28B3800AC9715 /* AVFoundation.framework */,
+				EF631B101CC28B2F00AC9715 /* AudioToolbox.framework */,
+				EF631B0E1CC28B2500AC9715 /* AssetsLibrary.framework */,
 				EF631A951CC22A4600AC9715 /* RCTRongCloudIMLib */,
 				EF631A941CC22A4600AC9715 /* Products */,
 			);
@@ -212,14 +276,13 @@
 		EF631A9D1CC22A4600AC9715 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/lib";
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../react-native/React",
-					"$(SRCROOT)/../../react-native/Libraries",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../react-native/Libraries/**",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/lib";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -229,14 +292,13 @@
 		EF631A9E1CC22A4600AC9715 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/lib";
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../react-native/React",
-					"$(SRCROOT)/../../react-native/Libraries",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../react-native/Libraries/**",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/lib";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
