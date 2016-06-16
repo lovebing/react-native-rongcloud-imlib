@@ -1,11 +1,9 @@
 {
   "name": "react-native-rongcloud-imlib",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "RongCloud IMLib For React Native",
   "main": "index.js",
   "dependencies": {
-    "react": "^0.14.5",
-    "react-native": "^0.23.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
