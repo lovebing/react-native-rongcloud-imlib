@@ -1,7 +1,8 @@
 # react-native-rongcloud-imlib
+Rongcloud IMLib Module For React Native
 
 [![Join the chat at https://gitter.im/lotosbin/react-native-rongcloud-imlib](https://badges.gitter.im/lotosbin/react-native-rongcloud-imlib.svg)](https://gitter.im/lotosbin/react-native-rongcloud-imlib?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-Rongcloud IMLib Module For React Native
+
 # prepare
 ```
 npm install -g rnpm
