@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/lovebing/react-native-rongcloud-imlib/issues"
   },
-  "homepage": "https://github.com/lovebing/react-native-rongcloud-imlib#readme"
+  "homepage": "https://github.com/lovebing/react-native-rongcloud-imlib#readme",
+  "rnpm":{
+      "commands":{
+          "postlink":"node_modules/react-native-rongcloud-imlib/scripts/rnpm-postlink.js"
+      }
+  }
 }
