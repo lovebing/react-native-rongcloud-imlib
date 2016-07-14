@@ -24,7 +24,7 @@
   "homepage": "https://github.com/lovebing/react-native-rongcloud-imlib#readme",
   "rnpm":{
       "commands":{
-          "postlink":"node_modules/react-native-rongcloud-imlib/scripts/rnpm-postlink.js"
+          "postlink":"./node_modules/react-native-rongcloud-imlib/scripts/rnpm-postlink.js"
       }
   }
 }
