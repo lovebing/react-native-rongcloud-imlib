@@ -20,8 +20,19 @@ rnpm link react-native-rongcloud-imlib
 - config AndroidManifest.xml
 - fix settings.gradle
 ```
+// file: android/settings.gradle
+// ...
 include ':react-native-rongcloud-imlib'
 project(":react-native-rongcloud-imlib").projectDir = file("../node_modules/react-native-rongcloud-imlib/android")
+```
+```
+// file: android/app/build.gradle
+
+dependencies {
+    // ...
+    compile project(':react-native-rongcloud-imlib')
+}
+
 ```
 
 ## ios config
