@@ -1,10 +1,9 @@
 {
   "name": "react-native-rongcloud-imlib",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "RongCloud IMLib For React Native",
   "main": "index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/lovebing/react-native-rongcloud-imlib/issues"
   },
-  "homepage": "https://github.com/lovebing/react-native-rongcloud-imlib#readme"
+  "homepage": "https://github.com/lovebing/react-native-rongcloud-imlib#readme",
+  "rnpm": {
+    "packageImportPath": "import org.lovebing.reactnative.rongcloud.RongCloudPackage;"
+  }
 }
